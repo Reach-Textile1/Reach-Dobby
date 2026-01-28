@@ -30,6 +30,7 @@ const HeroSection = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
+            filter: "brightness(0.95) contrast(0.9)",
           }}
         />
       </div>

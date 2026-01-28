@@ -122,52 +122,71 @@ All colors MUST be HSL.
 /* ============================= */
 
 /* Background colors */
-.bg-6f50aa { background-color: #6F50AA; }
-.bg-9c76cc { background-color: #9C76CC; }
-.bg-f8b8d1 { background-color: #F8B8D1; }
-.bg-ea6aad { background-color: #EA6AAD; }
 .bg-a52356 { background-color: #A52356; }
 
 /* Text colors */
-.text-6f50aa { color: #6F50AA; }
-.text-9c76cc { color: #9C76CC; }
-.text-f8b8d1 { color: #F8B8D1; }
-.text-ea6aad { color: #EA6AAD; }
 .text-a52356 { color: #A52356; }
 
 /* Icon filters for PNG icons */
-
-/* #6F50AA */
-.icon-6f50aa {
-  filter: brightness(0) saturate(100%)
-    invert(36%) sepia(22%) saturate(1940%)
-    hue-rotate(247deg) brightness(90%) contrast(92%);
-}
-
-/* #9C76CC */
-.icon-9c76cc {
-  filter: brightness(0) saturate(100%)
-    invert(60%) sepia(20%) saturate(1130%)
-    hue-rotate(245deg) brightness(95%) contrast(92%);
-}
-
-/* #F8B8D1 */
-.icon-f8b8d1 {
-  filter: brightness(0) saturate(100%)
-    invert(86%) sepia(16%) saturate(670%)
-    hue-rotate(315deg) brightness(102%) contrast(95%);
-}
-
-/* #EA6AAD */
-.icon-ea6aad {
-  filter: brightness(0) saturate(100%)
-    invert(54%) sepia(47%) saturate(1760%)
-    hue-rotate(320deg) brightness(95%) contrast(92%);
-}
 
 /* #A52356 */
 .icon-a52356 {
   filter: brightness(0) saturate(100%)
     invert(21%) sepia(82%) saturate(2930%)
     hue-rotate(330deg) brightness(90%) contrast(92%);
+}
+
+
+/* ============================= */
+/* MINT / TEAL COLOR PALETTE */
+/* ============================= */
+
+/* Background colors */
+.bg-teal-25  { background-color: #F0FBF9; }
+.bg-teal-50  { background-color: #D9F7F2; }
+.bg-teal-100 { background-color: #A6EFE3; }
+.bg-teal-200 { background-color: #6AD6C8; }
+.bg-teal-400 { background-color: #2FB7A8; }
+.bg-teal-600 { background-color: #0E8F85; }
+.bg-teal-800 { background-color: #04665E; }
+.bg-teal-900 { background-color: #043F3B; }
+
+/* Text colors */
+.text-teal-25  { color: #F0FBF9; }
+.text-teal-50  { color: #D9F7F2; }
+.text-teal-100 { color: #A6EFE3; }
+.text-teal-200 { color: #6AD6C8; }
+.text-teal-400 { color: #2FB7A8; }
+.text-teal-600 { color: #0E8F85; }
+.text-teal-800 { color: #04665E; }
+.text-teal-900 { color: #043F3B; }
+
+/* PNG Icon filters (teal/mint) */
+
+/* Light mint */
+.icon-teal-100 {
+  filter: brightness(0) saturate(100%)
+    invert(87%) sepia(24%) saturate(480%)
+    hue-rotate(130deg) brightness(105%) contrast(95%);
+}
+
+/* Medium teal */
+.icon-teal-400 {
+  filter: brightness(0) saturate(100%)
+    invert(54%) sepia(45%) saturate(980%)
+    hue-rotate(135deg) brightness(95%) contrast(95%);
+}
+
+/* Dark teal */
+.icon-teal-600 {
+  filter: brightness(0) saturate(100%)
+    invert(32%) sepia(55%) saturate(980%)
+    hue-rotate(145deg) brightness(90%) contrast(95%);
+}
+
+/* Deep dark teal */
+.icon-teal-800 {
+  filter: brightness(0) saturate(100%)
+    invert(18%) sepia(45%) saturate(700%)
+    hue-rotate(150deg) brightness(85%) contrast(100%);
 }

@@ -12,7 +12,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <HeroSection />
-      {/* <WhatDoesSection /> */}
+      <WhatDoesSection />
       <WhoIsThisFor />
       <BenefitsSection />
       <Footer />
