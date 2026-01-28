@@ -4,33 +4,33 @@ const BenefitsSection = () => {
   const benefits = [
     {
       icon: Clock,
-      title: "Simple to Compound Weave Design",
-      description: "Create simple, double, and compound weave structures with complete control over shafts, picks, warp, and weft patterns."
+      title: "Ease of Design Creation and Edition",
+      description: "The intuitive graphical editor and tools simplify the process of building and modifying complex dobby weaves, saving time and reducing errors in design workflows."
     },
     {
       icon: Users,
-      title: "Integrated Weave Editor & Editing Tools",
-      description: "Design dobby weaves using a built-in graphical weave editor with tools like cut, copy, paste, undo, redo, mirror, rotate, invert, and duplicate."
+      title: "Enhanced Visualization and Simulation",
+      description: "Photorealistic fabric simulations allow users to preview designs accurately, including yarn effects and color matching, helping to visualize the final product before production and minimize costly revisions."
     },
     {
       icon: TrendingUp,
-      title: "Pattern Creation & Repeat Control",
-      description: "Automatically generate patterns from selected designs, repeat patterns uniformly, merge multiple weaves, and apply reverse or mirror transformations."
+      title: "Comprehensive Technical Support",
+      description: "Generation of peg plans, drafts, yarn consumption data, and technical parameters provides essential information for efficient manufacturing, optimizing material use and production planning."
     },
     {
       icon: Star,
-      title: "Libraries, Editors & Reusability",
-      description: "Access inbuilt weave, colour, and yarn libraries, reuse existing weave designs, and manage program, article, and weave parameters efficiently."
+      title: "Library and Data Management",
+      description: "Built-in libraries and a data bank enable quick access and reuse of designs, colors, and yarns, streamlining collaboration and iteration in design projects."
     },
         {
       icon: Clock,
-      title: "Fabric Simulation & Visualization",
-      description: "Simulate fabrics with photorealistic previews, including simple yarn, mélange, mouliné, extra warp, and extra weft combinations."
+      title: "Versatility in Weave Structure",
+      description: "Support for multiple weave types (simple, double, compound) and features like merging, mirroring, and inverting expands creative possibilities, allowing for a wide range of innovative textile patterns."
     },
     {
       icon: Users,
-      title: "Technical Data & Production Readiness",
-      description: "Generate technical data, yarn consumption, peg plans, drafts, print outputs, and colour-matched fabric simulation reports for production."
+      title: "Efficiency in Production",
+      description: "By facilitating automatic pattern creation, repeat modes, and virtual fabric optimization, the software accelerates the design-to-production cycle, improving overall productivity in the textile industry."
     }
   ];
 
